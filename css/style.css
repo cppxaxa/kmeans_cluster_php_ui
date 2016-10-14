@@ -1,0 +1,112 @@
+#titlebar{
+	background: white;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+	height: 60px;
+	width: 100%;
+	
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+#titleText{
+	padding: 13px;
+	font-weight: bold;
+}
+
+#ground{
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+
+#page{
+	box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.1);
+	margin-top: 80px;
+	height: auto;
+	top: 30px;
+}
+
+#pageContent{
+	padding: 10px;
+}
+
+#sidemenu{
+	height: 100%;
+	width: 200px;
+	background: white;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+	
+	position: fixed;
+	left: -210px;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+#pageTitle{
+	background: #50A7F5;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+
+#pageTitleContent{
+	padding: 15px;
+}
+
+.tableResize{
+	width: 100%;
+}
+
+.pure-menu-link{
+	transition: background 0.4s;
+}
+
+#cover{
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+#message{
+    position: fixed;
+    left: 0px;
+    top: 33%;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    display: none;
+}
+
+#messageContent{
+    padding: 10px;
+}
+
+#messageClose{
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    transition: background 1s, color 0.5s;
+}
+
+#messageClose:hover{
+    background: rgb(240, 240, 240);
+    color: #50A7F5;
+}
+
+.btnReadme{
+    font-weight: bold;
+    cursor: pointer;
+}
