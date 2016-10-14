@@ -1,5 +1,5 @@
 {
-  "name": "Kmeans cluster php ui",
+  "name": "K-Means cluster PHP with UI",
   "tagline": "Implementation of K-Means cluster in PHP with decent interface",
   "body": "# K-Means clusters in PHP with UI\r\nImplementation of K-Means cluster in PHP with decent interface\r\n\r\n# Live Preview\r\nhttp://spider.nitt.edu/~cppxaxa/kmeans/\r\n\r\n# Reference\r\nhttp://dni-institute.in/blogs/k-means-clustering-algorithm-explained/\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
